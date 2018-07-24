@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsConfigLib", "StigsConfigLib\StigsConfigLib.csproj", "{799E192F-2EAB-4792-953A-BD9406233269}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalProjects", "ExternalProjects", "{2A944518-7BF4-48CF-BE5F-B6073C67DD8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsConfigLib.Tests", "StigsConfigLib.Tests\StigsConfigLib.Tests.csproj", "{4BC1AFB6-5106-4A56-BF60-4E301818DAF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsUtilsLib", "..\StigsUtilsLib\StigsUtilsLib\StigsUtilsLib.csproj", "{EA52FD48-70D2-4AE0-B66F-670F16784DBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsUtilsLib.Tests", "..\StigsUtilsLib\StigsUtilsLib.Tests\StigsUtilsLib.Tests.csproj", "{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799E192F-2EAB-4792-953A-BD9406233269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799E192F-2EAB-4792-953A-BD9406233269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799E192F-2EAB-4792-953A-BD9406233269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799E192F-2EAB-4792-953A-BD9406233269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC1AFB6-5106-4A56-BF60-4E301818DAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC1AFB6-5106-4A56-BF60-4E301818DAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC1AFB6-5106-4A56-BF60-4E301818DAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC1AFB6-5106-4A56-BF60-4E301818DAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA52FD48-70D2-4AE0-B66F-670F16784DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA52FD48-70D2-4AE0-B66F-670F16784DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA52FD48-70D2-4AE0-B66F-670F16784DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA52FD48-70D2-4AE0-B66F-670F16784DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA52FD48-70D2-4AE0-B66F-670F16784DBA} = {2A944518-7BF4-48CF-BE5F-B6073C67DD8A}
+		{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA} = {2A944518-7BF4-48CF-BE5F-B6073C67DD8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16FC0E4F-D8C9-4129-B4E9-40706500943E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "key00": "default val00",
+  "Key0": "default val0",
+  "key1": "default val1",
+  "key2": [ 1, 2, 3, 4 ],
+  "key3": [ "1", "2", "3", "4" ],
+  "key4": [ 5, "7", 6, "8" ],
+  "nonExistingKey": null,
+  "key-with-hyphen": "val-with-hyphen"
+}

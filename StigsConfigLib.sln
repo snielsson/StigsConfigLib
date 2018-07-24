@@ -13,6 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsUtilsLib", "..\StigsUt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StigsUtilsLib.Tests", "..\StigsUtilsLib\StigsUtilsLib.Tests\StigsUtilsLib.Tests.csproj", "{BD9C4DE4-4CCF-4FE4-BA2C-B976BA3B2AFA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B730ADE-A08D-40D1-8853-FF3AE58A0301}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		dotnet_pack_with_github_url.cmd = dotnet_pack_with_github_url.cmd
+		git_commit.cmd = git_commit.cmd
+		git_pull.cmd = git_pull.cmd
+		git_push.cmd = git_push.cmd
+		git_save.cmd = git_save.cmd
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
